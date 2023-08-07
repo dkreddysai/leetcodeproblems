@@ -1,3 +1,5 @@
+#https://leetcode.com/problems/remove-element/submissions/
+#Remove Element
 def removeElement(nums,val):
     """
     :type nums: List[int]
