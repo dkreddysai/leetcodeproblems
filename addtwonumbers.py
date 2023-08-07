@@ -1,3 +1,5 @@
+#https://leetcode.com/problems/add-two-numbers/submissions/
+#Add Two Numbers
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
@@ -27,10 +29,6 @@ def addTwoNumbers(l1, l2):
         current.next = ListNode(carry)
 
     return dummy.next
-# Example usage:
-# l1: 2 -> 4 -> 3 (represents the number 342)
-# l2: 5 -> 6 -> 4 (represents the number 465)
-# Sum: 807
 l1 = ListNode(2, ListNode(4, ListNode(3)))
 l2 = ListNode(5, ListNode(6, ListNode(4)))
 
