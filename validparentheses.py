@@ -1,3 +1,5 @@
+#https://leetcode.com/problems/valid-parentheses/submissions/
+#Valid Parentheses
 def isValid(s):
     """
     :type s: str
